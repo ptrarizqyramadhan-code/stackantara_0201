@@ -25,4 +25,6 @@ private:
 
 public:
     Stack() {
-      
+        //6. inisialisasi nilai awal top sebagai NULL
+        top = NULL;
+    }
