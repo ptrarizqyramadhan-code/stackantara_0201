@@ -76,4 +76,5 @@ public:
 
 int main()
 {
-  
+    //11. inisialisasi object stack
+    Stack stack;
