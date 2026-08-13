@@ -19,3 +19,10 @@ public:
 class Stack {
 
 private:
+    //5. inisialisasi Node top sebagai private untuk mengecek ujung dari
+    //   Stack
+    Node* top;
+
+public:
+    Stack() {
+      
