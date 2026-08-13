@@ -116,3 +116,15 @@ int main()
                     cout << "Stack is Empty. Cannot pop." << endl;
                 }
                 break;
+
+            //18. kondisi jika choice = 3
+            case 3:
+                if (!stack.isEmpty())
+                {
+                    stack.peek();
+                }
+                else
+                {
+                    cout << "Stack is Empty. No top value." << endl;
+                }
+                break;
