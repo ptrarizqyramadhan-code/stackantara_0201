@@ -10,4 +10,7 @@ public:
     Node* next;
 
     Node() {
-     
+        //3. pemberian value next sebagai NULL
+        next = NULL;
+    }
+};
